@@ -1,0 +1,131 @@
+html {
+  font-size: 25px;
+}
+header {
+
+  nav {
+
+    h3 {
+      padding-left: 2rem;
+    }
+
+    h3 a {
+      font-size: 1.2rem;
+    }
+
+
+    ul li {
+      font-size: 0.9rem;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: $White;
+    }
+  }
+
+  .header__hero h1 {
+    
+    left: 2rem;
+    bottom: 15rem;
+  }
+
+  .header__hero--img {
+    height: 25rem;
+  }
+}
+
+main {
+
+  h2 {
+    padding-left: 2rem;
+  }
+  .main__section--1 {
+    max-width: 80%;
+
+  }
+
+
+  aside {
+
+    width: 28rem;
+    font-family: 'AvenirNextLTPro-Demi';
+    font-size: 1.1rem;
+    span {
+      font-size: 0.8rem;
+    }
+  }
+
+  .main__paragraphs {
+    
+    .main__paragraphs--1{
+      font-size: 0.8rem;
+
+    }
+    .main__paragraphs--2{
+      font-size: 0.8rem;
+    }
+  }
+
+  .main__section--2 {
+
+  .photoGallery img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .main__photoGallery--row1,
+  .main__photoGallery--row2,
+  .main__photoGallery--row3 {
+    width: 95%;
+    display:flex;
+    margin-left: auto;
+  margin-right: auto;
+
+    .main__photoGallery--image1,
+    .main__photoGallery--image2,
+    .main__photoGallery--image3,
+    .main__photoGallery--image4,
+    .main__photoGallery--image5,
+    .main__photoGallery--image6 {
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
+      padding-bottom: 0.6rem;
+    }
+
+    .main__photoGallery--image7,
+    .main__photoGallery--image8,
+    .main__photoGallery--image9 {
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
+      padding-bottom: 1.6rem;
+    }
+  }
+}
+}
+
+footer {
+  font-size: 22px;
+  h3 {
+    padding-right: 2rem;
+  }
+
+  .footer__staff {
+    display: flex;
+    padding-left: 2rem;
+    font-size: 0.7rem;
+    .footer__staff--camAdams, .footer__staff--pearlGregg {
+    margin-right: 2rem;
+    }
+  }
+  
+  .footer__copyright {
+    padding-left: 2rem;
+    font-size: 0.7rem;
+  }
+
+}
+
+
+
+

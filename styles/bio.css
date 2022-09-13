@@ -79,7 +79,6 @@ header .header__hero h1 {
 }
 header .header__hero--img {
   opacity: 0.5;
-  min-height: 40rem;
   width: 100%;
   height: 39rem;
   max-width: 100%;
@@ -224,35 +223,119 @@ footer .footer__copyright {
   padding-bottom: 2rem;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
   html {
-    font-size: 19px;
+    font-size: 25px;
   }
-  .main__photoGallery--image1 img,
-.main__photoGallery--image2 img,
-.main__photoGallery--image3 img,
-.main__photoGallery--image4 img,
-.main__photoGallery--image5 img,
-.main__photoGallery--image6 img,
-.main__photoGallery--image7 img,
-.main__photoGallery--image8 img,
-.main__photoGallery--image9 img {
-    width: 260px;
+  header nav h3 {
+    padding-left: 2rem;
+  }
+  header nav h3 a {
+    font-size: 1.2rem;
+  }
+  header nav ul li {
+    font-size: 0.9rem;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  header .header__hero h1 {
+    left: 2rem;
+    bottom: 15rem;
+  }
+  header .header__hero--img {
+    height: 25rem;
+  }
+  main h2 {
+    padding-left: 2rem;
+  }
+  main .main__section--1 {
+    max-width: 80%;
+  }
+  main aside {
+    width: 28rem;
+    font-family: "AvenirNextLTPro-Demi";
+    font-size: 1.1rem;
+  }
+  main aside span {
+    font-size: 0.8rem;
+  }
+  main .main__paragraphs .main__paragraphs--1 {
+    font-size: 0.8rem;
+  }
+  main .main__paragraphs .main__paragraphs--2 {
+    font-size: 0.8rem;
+  }
+  main .main__section--2 .photoGallery img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  main .main__section--2 .main__photoGallery--row1,
+main .main__section--2 .main__photoGallery--row2,
+main .main__section--2 .main__photoGallery--row3 {
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image1,
+main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image2,
+main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image3,
+main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image4,
+main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image5,
+main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image6,
+main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image1,
+main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image2,
+main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image3,
+main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image4,
+main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image5,
+main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image6,
+main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image1,
+main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image2,
+main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image3,
+main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image4,
+main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image5,
+main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image6 {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+  main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image7,
+main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image8,
+main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image9,
+main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image7,
+main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image8,
+main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image9,
+main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image7,
+main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image8,
+main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image9 {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-bottom: 1.6rem;
+  }
+  footer {
+    font-size: 22px;
+  }
+  footer h3 {
+    padding-right: 2rem;
+  }
+  footer .footer__staff {
+    display: flex;
+    padding-left: 2rem;
+    font-size: 0.7rem;
+  }
+  footer .footer__staff .footer__staff--camAdams, footer .footer__staff .footer__staff--pearlGregg {
+    margin-right: 2rem;
+  }
+  footer .footer__copyright {
+    padding-left: 2rem;
+    font-size: 0.7rem;
   }
 }
-@media only screen and (max-width: 479px) {
-  html {
-    font-size: 23px;
-  }
-  .main__photoGallery--image1 img,
-.main__photoGallery--image2 img,
-.main__photoGallery--image3 img,
-.main__photoGallery--image4 img,
-.main__photoGallery--image5 img,
-.main__photoGallery--image6 img,
-.main__photoGallery--image7 img,
-.main__photoGallery--image8 img,
-.main__photoGallery--image9 img {
-    width: 100%;
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 30px;
   }
 }/*# sourceMappingURL=bio.css.map */
