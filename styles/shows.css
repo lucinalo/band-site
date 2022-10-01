@@ -50,12 +50,14 @@ header nav h3 a {
   color: #FFFFFF;
   font-size: 1.2rem;
 }
-header nav .nav__biography {
+header nav .nav__shows {
   text-decoration: underline;
   -webkit-text-decoration-color: #FFFFFF;
           text-decoration-color: #FFFFFF;
   text-decoration-thickness: 0.25rem;
   text-underline-offset: 1.84rem;
+}
+header nav .nav__biography {
   padding-left: 1.7rem;
   padding-right: 1.8rem;
 }
@@ -71,6 +73,15 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: #FFFFFF;
+}
+header .header__hero h2 {
+  position: relative;
+  font-size: 1.4rem;
+  font-family: "AvenirNextLTPro-Demi";
+  color: #FFFFFF;
+  height: 0;
+  left: 7rem;
+  bottom: 24rem;
 }
 header .header__hero h1 {
   position: relative;
@@ -89,11 +100,17 @@ header .header__hero--img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+header iframe {
+  position: absolute;
+  right: 5rem;
+  top: 18rem;
+}
 
 main {
   line-height: 160%;
 }
 main h2 {
+  position: absolute;
   font-size: 1.8rem;
   font-family: "AvenirNextLTPro-Demi";
   padding-left: 7rem;
@@ -125,118 +142,55 @@ main h3 {
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
-main .main__paragraphs {
-  display: flex;
-}
-main .main__paragraphs .main__paragraphs--1 {
-  flex: 1;
-  margin-right: 1rem;
-  font-size: 0.9rem;
-  padding-bottom: 2rem;
-}
-main .main__paragraphs .main__paragraphs--2 {
-  flex: 1;
-  font-size: 0.9rem;
-  padding-bottom: 2rem;
-}
-main .main__section--2 {
-  background-color: #FAFAFA;
-}
-main .main__section--2 .photoGallery img {
-  max-width: 19rem;
-}
-main .main__section--2 .main__photoGallery--row1,
-main .main__section--2 .main__photoGallery--row2,
-main .main__section--2 .main__photoGallery--row3 {
-  margin: 0 auto;
-  width: 82%;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image1,
-main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image2,
-main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image3,
-main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image4,
-main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image5,
-main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image6,
-main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image1,
-main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image2,
-main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image3,
-main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image4,
-main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image5,
-main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image6,
-main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image1,
-main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image2,
-main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image3,
-main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image4,
-main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image5,
-main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image6 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-bottom: 0.8rem;
-}
-main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image7,
-main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image8,
-main .main__section--2 .main__photoGallery--row1 .main__photoGallery--image9,
-main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image7,
-main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image8,
-main .main__section--2 .main__photoGallery--row2 .main__photoGallery--image9,
-main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image7,
-main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image8,
-main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image9 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-bottom: 1.5rem;
-}
 
-.text__box {
-  padding-top: 2rem;
-  padding-left: 13rem;
-  margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
+.shows__table--data {
+  padding-top: 1.3rem;
+  padding-bottom: 2.5rem;
+  padding-left: 17rem;
 }
-
-.text__box--icon img {
-  width: 100px;
-  height: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.text__box h3 {
-  text-transform: uppercase;
-}
-
-#comment-box, #comment, #name-box {
-  border-radius: 4px;
-}
-
-::-moz-placeholder {
-  text-align: start;
-}
-
-:-ms-input-placeholder {
-  text-align: start;
-}
-
-::placeholder {
-  text-align: start;
-}
-
-#comment {
-  background-color: #000000;
-  color: #FFFFFF;
-  padding: 10px 20px;
+.shows__table--data button {
+  padding: 15px 35px;
   text-transform: uppercase;
   font-family: "AvenirNextLTPro-Bold";
+  background-color: #323232;
+  color: #FFFFFF;
+  border-radius: 6px;
+  border: none;
 }
-
-#comment:hover {
-  background-color: #000000;
+.shows__table--data .table__data--header {
+  padding-bottom: 1.5rem;
+  text-transform: uppercase;
+  font-family: "AvenirNextLTPro-Bold";
+  color: #AFAFAF;
+  border-bottom: 0px solid white;
+}
+.shows__table--data .table__data--header {
+  padding-right: 5rem;
+}
+.shows__table--data .selected-row {
+  background-color: #E1E1E1;
+}
+.shows__table--data .data--date {
+  padding-right: 5rem;
+  font-family: "AvenirNextLTPro-Bold";
+  font-size: 0.9rem;
+}
+.shows__table--data .data--venue,
+.shows__table--data .data--location {
+  padding-right: 5rem;
+  font-size: 0.9rem;
+}
+.shows__table--data table,
+.shows__table--data td {
+  border-bottom: 2px solid #E1E1E1;
+  border-collapse: collapse;
+}
+.shows__table--data tr td {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  font-size: 0.9rem;
 }
 
 footer {
@@ -246,9 +200,16 @@ footer {
 footer h2, footer .footer__block1--social {
   display: inline-block;
   padding-right: 2rem;
+  padding-bottom: 4rem;
+}
+footer .footer__block1--social {
+  padding-top: 2.2rem;
+  padding-left: 22rem;
+  position: absolute;
 }
 footer .footer__block1--social img {
   padding-right: 1.5rem;
+  display: inline-block;
 }
 footer h3 {
   float: right;
@@ -264,6 +225,7 @@ footer h3 a {
 footer .footer__staff {
   display: flex;
   padding-left: 7rem;
+  padding-top: 6rem;
   font-size: 0.9rem;
 }
 footer .footer__staff .footer__staff--camAdams, footer .footer__staff .footer__staff--pearlGregg {
@@ -391,4 +353,4 @@ main .main__section--2 .main__photoGallery--row3 .main__photoGallery--image9 {
   body {
     font-size: 30px;
   }
-}/*# sourceMappingURL=bio.css.map */
+}/*# sourceMappingURL=shows.css.map */

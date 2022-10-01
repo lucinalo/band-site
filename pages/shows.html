@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles/shows.css" rel="stylesheet">
+    <title>Bandsite - Shows</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h3><a href="../index.html">Bandsite</a>
+            </h3>
+            <ul>
+                <li class="nav__biography"><a href="../index.html">Biography</a></li>
+                <li class="nav__shows"><a href="shows.html">Shows</a></li>
+            </ul>
+        </nav>
+        <div class="header__hero">
+            <img class="header__hero--img" background-img src="../assets/images/hero-shows.jpg" alt="Hand in the air at a concert">
+            <h2>Beautiful Beasts Album</h2>
+            <h1>Queen of Yellow <br>x For The Stings</h1>
+            <iframe width="500" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1305527095&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        </div>
+    </header>
+
+    <main>
+        <h2>Shows</h2>
+        <section class="shows__table">
+            
+        <div class="shows__table--data">
+            <table id="myTable">
+                <thead>
+                <tr>
+                    <td class="table__data--header">
+                        Date
+                    </td>
+                    <td class="table__data--header">
+                        Venue
+                    </td>
+                    <td class="table__data--header">
+                        Location
+                    </td>
+                </tr>
+            </thead>
+                <tr class="table-row">
+                    <td class="data--date">
+                        Mon Sept 06 2021
+                    </td>
+                    <td class="data--venue">
+                        Ronald Lane
+                    </td>
+                    <td class="data--location">
+                        San Francisco, CA
+                    </td>
+                    <td>
+                        <button>Buy Tickets</button>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td class="data--date">
+                        Tue Sept 21 2021
+                    </td>
+                    <td class="data--venue">
+                        Pier 3 East
+                    </td>
+                    <td class="data--location">
+                        San Francisco, CA
+                    </td>
+                    <td>
+                        <button>Buy Tickets</button>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td class="data--date">
+                        Fri Oct 15 2021
+                    </td>
+                    <td class="data--venue">
+                        View Lounge
+                    </td>
+                    <td class="data--location">
+                        San Francisco, CA
+                    </td>
+                    <td>
+                        <button>Buy Tickets</button>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td class="data--date">
+                        Sat Nov 06 2021
+                    </td>
+                    <td class="data--venue">
+                        Hyatt Agency
+                    </td>
+                    <td class="data--location">
+                        San Francisco, CA
+                    </td>
+                    <td>
+                        <button>Buy Tickets</button>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td class="data--date">
+                        Fri Nov 26 2021
+                    </td>
+                    <td class="data--venue">
+                        Moscow Center
+                    </td>
+                    <td class="data--location">
+                        San Francisco, CA
+                    </td>
+                    <td>
+                        <button>Buy Tickets</button>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td class="data--date">
+                        Wed Dec 15 2021
+                    </td>
+                    <td class="data--venue">
+                        Press Club
+                    </td>
+                    <td class="data--location">
+                        San Francisco, CA
+                    </td>
+                    <td>
+                        <button>Buy Tickets</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        </section>
+        <footer>
+            <div class="footer__block1">
+            <h2>Get in Touch</h2>
+            <div class="footer__block1--social">
+                <a href="https://instagram.com/"><img src="../assets/icons/SVG/Icon-instagram.svg" alt="Instagram"></a>
+                <a href="https://www.facebook.com/"><img src="../assets/icons/SVG/Icon-facebook.svg" alt="Facebook"></a>
+                <a href="https://twitter.com/"><img src="../assets/icons/SVG/Icon-twitter.svg" alt="Twitter"></a>
+            </div>
+            <h3><a href="index.html">Bandsite</a></h3>
+        </div>
+
+        <div class="footer__staff">
+            <div class="footer__staff--camAdams">
+                <p>Cam Adams
+                    <br>
+                    The Bees Knees Management
+                    <br><br>
+                    503 Broadway Penthouse,
+                    <br>
+                    New York, NY 10012, USA
+                    <br><br>
+                    info@thebeesknees.com</p>
+            </div>
+
+            <div class="footer__staff--pearlGregg">
+                <p>Pearl Gregg
+                    <br>
+                    Limitless Artist Group
+                    <br><br>
+                    Booking Agent for
+                    <br>
+                    US / South America / Japan
+                    <br><br>
+                    pearl.gregg@limitlessag.com
+                </p>
+            </div>
+
+            <div class="footer__staff--carsonWhyte">
+                <p>Carson Whyte
+                    <br>
+                    ARCH Entertainment
+                    <br><br>
+                    Booking Agent for
+                    <br>
+                    UK / EU / AU
+                    <br><br>
+                    cwhyte@archentertainment.com</p>
+            </div>
+        </div>
+            <div class="footer__copyright">
+                Copyright The Bees Knees © 2021 All Rights Reserved
+            </div>
+        </footer>
+        </main>
+</body>
+
+<script type="text/javascript">
+    var table = document.getElementByID("myTable");
+    var rows = document.getElementsByTagName("tr");
+    for(i = 1; i < rows.lenth; i++) {
+        var currentRow = table.rows[i];
+        currentRow.onclick = function() {
+            Array.from(this.parentElement.children).forEach(function(el){
+el.classlist.remove('selected-row');
+            });
+            this.classList.add('selected-row');
+        }
+    }
+</script>
+
+</html>

@@ -23,6 +23,11 @@ html {
   src: url('../assets/fonts/AvenirNextLTPro-Demi.otf'); 
 }
 
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  src: url('../assets/fonts/AvenirNextLTPro.ttf'); 
+}
+
 body {
   font-family: 'AvenirNextLTPro-Regular';
   font-weight: 400;
