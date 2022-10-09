@@ -24,8 +24,27 @@ header {
     }
   }
 
+  .header__hero--shows {
+    display: block;
+    h2 {
+    position: absolute;
+    top: 9rem;
+    left: 2rem;
+    }
+    h1 {
+      position: absolute;
+      top: 12rem;
+    }
+    iframe {
+      width: 560px;
+      height: 180px;
+      position: absolute;
+      top: 22rem;
+      left: 2rem;
+    }
+  }
+
   .header__hero h1 {
-    
     left: 2rem;
     bottom: 15rem;
   }
@@ -33,12 +52,36 @@ header {
   .header__hero--img {
     height: 25rem;
   }
+
+  .hero__img--shows {
+    height: 27rem;
+  }
+
 }
 
 main {
 
-  h2 {
+  .shows__table--data {
+    padding: 4.2rem 0rem 0rem 0rem;
+  }
+
+  .header--shows h2 {
+    position: absolute;
     padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .table__data--header,
+  .data--date,
+  .data--venue,
+  .data--location {
+    padding-right: 1rem !important;
+  }
+
+
+  h2 {
+    padding-left: 0rem;
   }
   .main__section--1 {
     max-width: 80%;

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: 0.25px;
 }
 
 html {
@@ -92,7 +93,7 @@ header .header__hero h1 {
   left: 7rem;
   bottom: 21rem;
 }
-header .header__hero--img {
+header .hero__img--shows {
   opacity: 0.5;
   width: 100%;
   height: 36rem;
@@ -148,7 +149,7 @@ main h3 {
   padding-bottom: 2.5rem;
   padding-left: 17rem;
 }
-.shows__table--data button {
+.shows__table--data .button {
   padding: 15px 35px;
   text-transform: uppercase;
   font-family: "AvenirNextLTPro-Bold";
@@ -156,6 +157,8 @@ main h3 {
   color: #FFFFFF;
   border-radius: 6px;
   border: none;
+  text-decoration: none;
+  display: block;
 }
 .shows__table--data .table__data--header {
   padding-bottom: 1.5rem;
@@ -166,6 +169,12 @@ main h3 {
 }
 .shows__table--data .table__data--header {
   padding-right: 5rem;
+}
+.shows__table--data .table-row:hover {
+  background-color: #FAFAFA;
+}
+.shows__table--data .table-row:active {
+  background-color: #E1E1E1;
 }
 .shows__table--data .selected-row {
   background-color: #E1E1E1;
@@ -255,6 +264,25 @@ footer .footer__copyright {
     text-decoration: none;
     color: #FFFFFF;
   }
+  header .header__hero--shows {
+    display: block;
+  }
+  header .header__hero--shows h2 {
+    position: absolute;
+    top: 9rem;
+    left: 2rem;
+  }
+  header .header__hero--shows h1 {
+    position: absolute;
+    top: 12rem;
+  }
+  header .header__hero--shows iframe {
+    width: 560px;
+    height: 180px;
+    position: absolute;
+    top: 22rem;
+    left: 2rem;
+  }
   header .header__hero h1 {
     left: 2rem;
     bottom: 15rem;
@@ -262,8 +290,26 @@ footer .footer__copyright {
   header .header__hero--img {
     height: 25rem;
   }
-  main h2 {
+  header .hero__img--shows {
+    height: 27rem;
+  }
+  main .shows__table--data {
+    padding: 4.2rem 0rem 0rem 0rem;
+  }
+  main .header--shows h2 {
+    position: absolute;
     padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1.8rem;
+  }
+  main .table__data--header,
+main .data--date,
+main .data--venue,
+main .data--location {
+    padding-right: 1rem !important;
+  }
+  main h2 {
+    padding-left: 0rem;
   }
   main .main__section--1 {
     max-width: 80%;
