@@ -251,6 +251,9 @@ footer .footer__copyright {
   html {
     font-size: 25px;
   }
+  header {
+    height: 30rem;
+  }
   header nav h3 {
     padding-left: 2rem;
   }
@@ -293,10 +296,13 @@ footer .footer__copyright {
   header .hero__img--shows {
     height: 27rem;
   }
+  header.shows--header {
+    height: 32rem;
+  }
   main .shows__table--data {
     padding: 4.2rem 0rem 0rem 0rem;
   }
-  main .header--shows h2 {
+  main h2.header--shows {
     position: absolute;
     padding-left: 2rem;
     padding-top: 2rem;

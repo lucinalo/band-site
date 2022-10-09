@@ -178,7 +178,7 @@ margin-right: auto;
 }
 
 
-.text__box--icon img {
+img.text__box--icon {
   width:70px;
   height:70px;
   object-fit:cover;
@@ -304,7 +304,6 @@ footer {
 
 @media only screen and (min-width: 100px) and (max-width: 480px) {
   body {
-  font-size: 60px;
-  background-color: red;
+  font-size: 30px;
   }
   }

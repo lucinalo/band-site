@@ -1,8 +1,10 @@
 html {
   font-size: 25px;
 }
-header {
 
+header {
+  height: 30rem;
+  
   nav {
 
     h3 {
@@ -59,18 +61,22 @@ header {
 
 }
 
+header.shows--header {
+  height: 32rem;
+}
+
 main {
 
   .shows__table--data {
     padding: 4.2rem 0rem 0rem 0rem;
   }
 
-  .header--shows h2 {
+  h2.header--shows{
     position: absolute;
     padding-left: 2rem;
     padding-top: 2rem;
     padding-bottom: 1.8rem;
-  }
+}
 
   .table__data--header,
   .data--date,
